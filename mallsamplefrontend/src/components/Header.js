@@ -30,15 +30,15 @@ const Header = () => {
     return (
         <HeaderContainer>
             <div>
-                <img src="mall-icon.png" alt="Mall Logo" width="40" />
+                <img src="https://cdn-icons-png.freepik.com/256/11137/11137568.png?semt=ais_hybrid" alt="Mall Logo" width="40" />
             </div>
             <Nav>
                 <NavItem to="/">Home</NavItem>
-                <NavItem to="/contact">Contact</NavItem>
+                <NavItem to="/Contact">Contact</NavItem>
                 <NavItem to="/dashboard">Dashboard</NavItem>
             </Nav>
             <div>
-                <img src="profile-icon.png" alt="Profile" width="30" />
+                <img src="https://cdn-icons-png.flaticon.com/512/8847/8847419.png" alt="Profile" width="30" />
             </div>
         </HeaderContainer>
     )
